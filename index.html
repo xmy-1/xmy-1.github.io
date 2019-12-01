@@ -152,6 +152,55 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-队列" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>队列代码</p>
+<p>#include&lt;stdio.h&gt;<br>#include&lt;malloc.h&gt;<br>typedef struct queuenode {<br>int data;<br>struct queuenode <em>next;<br>} QueueNode;<br>typedef struct {<br>QueueNode *front;<br>QueueNode *rear;<br>} LinkQueue;<br>//初始化队列<br>void InitQueue (LinkQueue *q) {<br>q-&gt; front=q- &gt;rear=NULL;<br>//队列是否为空<br>int QueueEmpty (LinkQueue. *q) {<br>return q-&gt;front==NULL;<br>//入队列<br>int EnQueue (LinkQueue *q,int x){<br>QueueNode *p;<br>p= (QueueNode *) malloc (sizeof (QueueNode);<br>p-&gt;data=x;<br>p-&gt;next=NULL;<br>if (q-&gt;front==NULL) {<br>q-&gt;front=q- &gt;rear-D;<br>}else{<br>a-&gt;rear- &gt;next=p:<br>q-&gt;rear=p:<br>return 1;<br>//出队列<br>int DeQueue (LinkQueue *q,int *x) {<br>QueueNode *p;<br>if (QueueEmpty(q)) {<br>printf(“\n队空”);<br>return 0;<br>p=q-&gt;front;<br>*x=p-&gt;data;//把队头结点数据域里的数据取出来放到变量</em>里<br>q-&gt;front=p- &gt;next;<br>if(q- &gt;rear=p) {<br>q-&gt;rear=NULL;<br>free(p);<br>return 1;<br>//取队为兀茶<br>int QueueFront (LinkQueue *q,int *x) {<br>if (QueueEmpty(q)) {<br>printf(“\n队空”);<br>return 0;<br>*x=Q- &gt;front- &gt;data;<br>return 1:<br>void main(){<br>LinkQueue q;<br>int a,i,y,z;<br>Ini tQueue (&amp;q) ;<br>for(i = 0; i &lt; 10; i++){<br>printf(“请输入第%d个元素:”,1+1);<br>scanf(“%d” ,&amp;a) ;<br>EnQueue(&amp;q，a);|<br>printf(“\n出队列的元素: );<br>DeQueue (&amp;q,&amp;y) ;<br>printf (“%d<br>printf(“\n此时的队首元素为: “);<br>QueueFront (&amp;q, &amp;z) ;<br>printf(“ %d\n”，z);<br>}</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/12/01/队列/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-java第4-8章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -499,7 +548,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#include&lt;stdio.h&gt;<br>#define StackSize 10<br>typedef struct {<br>  char data[StackSize]; //char data[10] 栈中的元素<br>  int top;//指向栈顶<br>}SeqStack;</p>
+        <p>顺序栈</p>
+<p>#include&lt;stdio.h&gt;<br>#define StackSize 10<br>typedef struct {<br>  char data[StackSize]; //char data[10] 栈中的元素<br>  int top;//指向栈顶<br>}SeqStack;</p>
 <p>//初始化一个空栈<br>SeqStack InitStack(){<br>  SeqStack s;<br>  s.top=-1;<br>  return s;<br>}</p>
 <p>//进栈<br>int PushStack(SeqStack *s,char x){<br>    if(s-&gt;top==StackSize-1){<br>      printf(“\n栈满”);<br>      return 0;<br>          }<br>  s-&gt;top++;<br>  s-&gt;data[s-&gt;top]=x;<br>  return 1;<br>}</p>
 <p>//退栈<br>int Pop(SeqStack *s,char *x){<br>    if(s-&gt;top==-1) {<br>     printf(“\n栈空”);<br>     return 0;<br>    }<br>    *x=s-&gt;data[s-&gt;top];<br>     s-&gt;top–;<br>    return 1;<br>}</p>
