@@ -8,13 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="#include&amp;lt;stdio.h&amp;gt;#define StackSize 10typedef struct {  char data[StackSize]; //char data[10] 栈中的元素  int top;//指向栈顶}SeqStack; //初始化一个空栈SeqStack InitStack(){  SeqStack s;  s.top=-1;  return s;} //">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/12/01/C语言顺序栈/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#include&amp;lt;stdio.h&amp;gt;#define StackSize 10typedef struct {  char data[StackSize]; //char data[10] 栈中的元素  int top;//指向栈顶}SeqStack; //初始化一个空栈SeqStack InitStack(){  SeqStack s;  s.top=-1;  return s;} //">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-12-01T13:13:04.848Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="#include&amp;lt;stdio.h&amp;gt;#define StackSize 10typedef struct {  char data[StackSize]; //char data[10] 栈中的元素  int top;//指向栈顶}SeqStack; //初始化一个空栈SeqStack InitStack(){  SeqStack s;  s.top=-1;  return s;} //">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,351 +154,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-java第4-8章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>第四章<br>switch结构：适用于等值判断。<br>语法结构：<br>    switch(要比较的变量){<br>        case 常量1：<br>                执行语句;<br>                break;<br>        case 常量2：<br>                执行语句;<br>                break;<br>        case 常量3：<br>                执行语句;<br>                break;<br>        .………………………….<br>        default:<br>            上述条件都不满足时执行语句;<br>            break;<br>}</p>
-<p>注意：switch()里的变量必须是整型、字符型、字符串。</p>
-<p>检验用户输入的是否是整数。用hasNextInt()方法。<br>第五章<br>定义循环变量;<br>while(循环条件){<br>    循环体;<br>    改变循环变量;<br>}</p>
-<p>定义循环变量;<br>do{<br>    循环体;<br>    改变循环变量;<br>}while(循环条件);<br>程序调试：<br>    1.设置断点        在代码行左侧双击<br>    2.进入调试模式    单击Debug按钮，绿色小虫子<br>    3.F6                  单步运行，找到错误所在。<br>第六章<br>break:打断、跳出循环，执行循环后的语句。<br>continue:跳过本次循环，继续下次循环。<br>离哪个循环近，对哪个循环起作用。<br>第八章<br>数组：内存中一串连续的存储区域。只能存相同数据类型的元素<br>数组使用语法：<br>1.数据类型[] 数组名 = new 数据类型[数组长度];<br>数组名[0] = 值1;<br>int[] num = new int[5];<br>num[0]=5;<br>2. 数据类型[] 数组名 = new 数据类型[]{值1,值2,…………};<br>    int[] num = new int[]{1,2,3,4};</p>
-<ol start="3">
-<li>数据类型[] 数组名={1,2,3,4};</li>
-</ol>
-<p>注意：数组下标都是从0开始。<br>通过下标调用数组中的每个元素。<br>数组的长度是固定的。<br>获取数组的长度：数组名.length;<br>import java.util.Arrays;<br>数组元素升序排序：Arrays.sort(需要排序的数组名);</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/java第4-8章/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java第三章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>第三章</p>
-<p>1.if(条件){</p>
-<p>​           条件为true时执行语句;</p>
-<p>}</p>
-<p>\1.   if(条件){</p>
-<p>条件为true时执行语句;</p>
-<p>}else{</p>
-<p>条件为false时执行语句;</p>
-<p>}</p>
-<p>\2.   if(条件1){}</p>
-<p>else if(条件2){}</p>
-<p>else if(条件3){}</p>
-<p>……</p>
-<p>else{上述条件都不满足时}</p>
-<p>注意：满足多个条件，只执行满足的第一个条件及其执行语句。</p>
-<p>逻辑运算符：</p>
-<p>或：||   任一条件满足，结果为true；全假才为false </p>
-<p>与：&amp;&amp;  全部条件为真，结果才为true；任一为假，结果就为假</p>
-<p>非： ！  真为假，假为真</p>
-<p>无论是if还是else后面的执行语句，都要用{}包裹起来。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/java第三章/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java第二章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>第二章</p>
-<p>变量：内存中的一块存储区域。</p>
-<p>变量名：方便找到对应空间存储的数据。</p>
-<p>数据类型：</p>
-<p>\1.   byte</p>
-<p>\2.   short</p>
-<p>\3.   int</p>
-<p>\4.   long</p>
-<p>都是用来存：整数。</p>
-<p>\5.   float</p>
-<p>\6.   double </p>
-<p>都是用来存：带小数点的浮点数。</p>
-<p>\7.   char 存单个字符  ‘a’  ‘汉’  ‘5’</p>
-<p>\8.   Boolean 布尔类型 只有两个值，true或false</p>
-<p>\9.   String 字符串类型  要用””。</p>
-<p>变量声明使用：</p>
-<p>​           数据类型 变量名 = 值;</p>
-<p>声明，在内存中给需要存的值占个地方。</p>
-<p>赋值，往空间里面放数据。</p>
-<p>变量名、类名命名规则：</p>
-<p>​           1.不能为关键字</p>
-<p>​           2.不能以数字开头</p>
-<p>​           3.只能包含数字、字母、_、$</p>
-<p>Java严重区分大小写。</p>
-<p>变量如果由多个单词组成，首单词首字母小写，后面单词首字母大写——驼峰命名法。</p>
-<p>算数运算符：+、-、*、/、%（求余）</p>
-<p>自加、减运算符：在原来的基础上加1、减1.</p>
-<p>++ 、–</p>
-<p>区分前加、减：先进行自加、减，再赋值。</p>
-<p>后加、减：先赋值，再进行自加、减。</p>
-<p>数据类型转换：</p>
-<p>\1.   自动数据类型转换。   小数据类型—-à大数据类型</p>
-<p>\2.   强制数据类型转换。   大数据类型—-à小数据类型 </p>
-<p>强转语法格式：</p>
-<p>(数据类型) 表达式</p>
-<p>关系运算符：&gt; 、&lt;、 &gt;=、 &lt;=、 !=、 ==、</p>
-<p>关系运算符的结果只有一种：true或false。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/java第二章/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java第一章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>第一章</p>
-<p>程序：对一系列动作执行过程的描述。</p>
-<p>程序：按照某种顺序完成一系列指令，这一系列指令的集合称为程序。</p>
-<p>Java：产生于91年，95年推出正式版本。主创人：詹姆斯-高斯林</p>
-<p>   原属于sun公司，现属于甲骨文公司（orical）。</p>
-<p>Java可做：</p>
-<p>\1.   桌面应用程序</p>
-<p>\2.   Internet的应用程序（网站后台）</p>
-<p>Java的分支：</p>
-<p>1．JavaSE   现阶段所学，基本语法还有基本的开发环境。</p>
-<p>2．JavaEE   企业级应用开发、</p>
-<p>\3.   J2ME   手游开发</p>
-<p>开发Java程序的步骤：</p>
-<p>\1.   编写源程序 .java</p>
-<p>\2.   编译    .class         命令：javac 类名.java</p>
-<p>\3.   运行                          命令：java 类名</p>
-<p>运行、编写java程序的准备工作：</p>
-<p>\1.   安装JDK（Java开发工具包）</p>
-<p>\2.   环境配置。（配置环境变量）</p>
-<p>Java程序的结构：</p>
-<p>​           public class 类名{</p>
-<p>​                  public static void main(String[] args){</p>
-<p>​           }</p>
-<p>}</p>
-<p>main()：主方法，一个java程序只有一个main方法。就是程序的入口。</p>
-<p>转义字符：\n  换行符</p>
-<p>​           \t  空出8个空格的距离</p>
-<p>Java注释：方便理解代码,增加代码可读性。</p>
-<p>​           1．单行注释  //</p>
-<p>​           \2. 多行注释 /**/</p>
-<p>System.out.print();//此输出不换行</p>
-<p>System.out.println();//此输出换行</p>
-<p>java编码规范：每写一句代码，都要按格式缩进。</p>
-<p>​           source—–àFormat</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/java第一章/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-C语言链表" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>//链表完整代码</p>
-<p>#include&lt;stdio.h&gt;<br>#include&lt;malloc.h&gt;  //动态分配存储空间的函数<br>typedef struct node{<br>   char data; //数据域<br>   struct node *next; //指针域<br>}ListNode;</p>
-<p>//创建链表<br>ListNode *CreatListF(){<br>    char ch;<br>  ListNode *head=(ListNode *)malloc(sizeof(ListNode));<br>  ListNode *s;<br>  head-&gt;next=NULL;  //初始化一个空链表<br>  printf(“\n创建链表：”);<br>  ch=getchar();<br>  while(ch!=’\n’){<br>    s=(ListNode *)malloc(sizeof(ListNode));<br>    s-&gt;data=ch;<br>    s-&gt;next=head-&gt;next;<br>    head-&gt;next=s;<br>    ch=getchar();<br>  }<br>  return head;<br>}<br>//按序号查找<br>ListNode *GetNode(ListNode *head,int i){<br>   int j=1;<br>   ListNode *p=head-&gt;next;<br>   while(p&amp;&amp;j&lt;i){<br>       p=p-&gt;next;<br>       j++;<br>   }<br>   if(j==i) return p;<br>   else<br>        return p=NULL;<br>}</p>
-<p>//按值查找<br>ListNode *LocateNode(ListNode *head,char key){<br>      ListNode *p=head-&gt;next;<br>      while(p&amp;&amp;p-&gt;data!=key){<br>          p=p-&gt;next;<br>      }<br>      return p;<br>}</p>
-<p>//插入元素<br>void InsertList(ListNode <em>head,char x,int i){<br>   ListNode *p,</em>s;<br>   p=GetNode(head,i-1);<br>   if(p==NULL){<br>    printf(“没找到”);<br>   }<br>   s=(ListNode <em>)malloc(sizeof(ListNode));<br>   s-&gt;data=x;<br>   s-&gt;next=p-&gt;next;<br>   p-&gt;next=s;<br>}<br>void DeleteList(ListNode *head,int i){<br>    ListNode *p,</em>r;<br>   p=GetNode(head,i-1);<br>if(p==NULL){<br>    printf(“没找到”);<br>   }<br>r=p-&gt;next;<br>p-&gt;next=r-&gt;next;<br>free(r);<br>}</p>
-<p>//输出链表<br>void Display(ListNode *lb){<br>  ListNode *p;<br>  printf(“\n输出链表：”);<br>  p=lb-&gt;next;<br>  while(p){<br>     printf(“%c  “,p-&gt;data);<br>    p=p-&gt;next;<br>  }</p>
-<p>}</p>
-<p>void main(){<br>ListNode <em>la,</em>s;<br>int k,z; //要插入元素的位置<br>char c1; //要插入的元素<br>la=CreatListF();<br> Display(la);<br>printf(“\n请输入要插入的元素：”);<br>scanf(“%c”,&amp;c1);<br>printf(“\n请输入要插入元素的位置”);<br>scanf(“%d”,&amp;k);<br>InsertList(la,c1,k);<br> Display(la);<br> printf(“\n请输入要删除的元素位置：”);<br> scanf(“%d”,&amp;z);<br>DeleteList(la,z);<br>Display(la);<br>}</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/C语言链表/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-C语言顺序栈" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-C语言顺序栈" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
@@ -512,6 +172,27 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -519,16 +200,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/C语言顺序栈/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/01/C语言顺序栈/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2019/12/01/C语言链表/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/10/21/MySQL总结/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -548,205 +297,14 @@
 
 
 
-
   
-    <article id="post-MySQL总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h5 id="MySQL总结"><a href="#MySQL总结" class="headerlink" title="MySQL总结"></a>MySQL总结</h5><h6 id="一、第一次课"><a href="#一、第一次课" class="headerlink" title="一、第一次课"></a>一、第一次课</h6><p>Mysql数据库第一次课<br>   0、数据库的分类<br>       关系型数据库<br>          sqlserver mysql orcale<br>       非关系型数据库nosql<br>          redis<br>   关系型数据库<br>   一、什么是数据库<br>       用来存储数据的仓库，数据库由一张一张的表<br>       组成，真正存储数据的地方为表<br>   二、什么是表<br>       表由行和列组成<br>       行在数据库里称为记录<br>       列称为字段或属性<br>       例如：学生表，表里应该有，学生的学号，<br>       姓名，身份证号，年纪。那么这些就称为<br>       表的字段。<br>    关系型数据库，是由一张一张有关系的表的<br>    组成的<br> 三、安装Mysql<br>    先安装Mysql服务器<br>        数据库是创建的在服务器上的<br>    再安装Mysql客户端<br>        用于连接上mysql服务器，进而对<br>        mysql服务器进行操作，比较常用<br>        客户端有navicat sqlyog<br> 四、sql语句的学习<br>    1、创建语句<br>        1.1、创建数据库<br>             create database 库名;<br>        1.2、创建表<br>             create table 表名(<br>                字段名1 数据类型 约束,<br>                字段名2 数据类型 约束,<br>                字段名3 数据类型<br>             )<br>          最常用的数据类型<br>          int<br>          char  字符串类型，固定<br>                长度<br>          varchar 字符串类型,可变<br>                长度<br>          float<br>    2、插入语句<br>     insert into 表名(字段1,字段2)<br>          values(数据1,数据2)<br>    3、查询语句<br>    select 字段1,字段2,字段3<br>       from 表名<br>    4、删除语句<br>          删除库<br>            dorp database 库名;<br>          删除表<br>            drop table 表名;<br>          删除表中所有的数据<br>            delete from 表名;<br>          删除表中指定的数据<br>            delete from 表名 where …<br>    5、修改语句<br>      update 表名 set … where …<br>#创建库<br>CREATE DATABASE onlinemalll;<br>#使用指定的库<br>USE onlinemalll;<br>#创建表<br>CREATE TABLE goods(<br>   gid INT PRIMARY KEY,#把gid设置<br>                       #表的主键<br>   gnam VARCHAR(100),<br>   gprice FLOAT<br>)<br>#插入数据<br>INSERT INTO goods(gid,gnam,gprice)<br> VALUES(1,’小熊雨伞’,11.6);<br>INSERT INTO goods(gid,gnam,gprice)<br> VALUES(2,’小熊饼干’,3.5);<br>INSERT INTO goods(gid,gnam,gprice)<br> VALUES(3,’小熊书包’,25);<br>#查询goods表<br>SELECT * FROM goods;<br>#删除gid等于3的数据<br>DELETE FROM goods WHERE gid=3;<br>#把小熊雨伞的价格改为15元<br>UPDATE goods SET gprice=15<br>    WHERE gnam=’小熊雨伞’;</p>
-<h6 id="二、第二次课"><a href="#二、第二次课" class="headerlink" title="二、第二次课"></a>二、第二次课</h6><p>Mysql第二次课<br>   数据库设计的三大范式<br>   第一范式：<br>      每个字段的数据都是不可分割<br>      的最小的数据单元<br>   第二范式<br>      每张表只能描述一件事情<br>      每张表必须有主键<br>   第三范式<br>      非主键字段依赖于主键字段<br>      换句话说，非主键字段与<br>      主键字段要直接相关<br>  注意：设计表时，尽可能遵守规范<br>     但是，有时为了性能，会牺一点规范<br>  Mysql运算符</p>
-<p>算术运算符</p>
-<pre><code>+ - * /</code></pre><p>逻辑运算符<br> and or !<br>比较运算符</p>
-<p>&lt; &gt;= &lt;= &lt;&gt; !=<br> 聚合函数<br> count() 求行数<br> sum() 求一列的和<br> avg() 去平均值<br> max() 求最大值<br> min() 求最小值<br>Mysql常用关键字<br> in   查询在什么什么选项中的数据<br>where name in(‘张三’,’李四’)<br>把name等于张三，等于李四的都<br>查询出来<br> not in<br> where name not in(‘张三’,’李四’)<br> 把name不等于张三，不等于李四<br> 的都查询出来<br> is null<br> is not null<br> distinct 去重<br> limit 查询出表的前几行<br> between…and..在什么什么之间<br> as 给字段取别名<br> union 查询两张表的并集<br>SELECT * FROM goods;<br>INSERT INTO goods(gnam,gprice)<br>     VALUES(‘吹风机’,89);<br>INSERT INTO goods(gnam,gprice)<br>     VALUES(‘外套’,200);<br>INSERT INTO goods(gnam,gprice)<br>     VALUES(‘外套’,220);<br>INSERT INTO goods(gnam,gprice)<br>     VALUES(‘吹风机’,78);<br>#查询出商品价格大于10的商品<br>SELECT * FROM goods<br> WHERE gprice&gt;10;<br>#查询商品价格不等于10的商品信息<br>SELECT * FROM goods<br> WHERE gprice&lt;&gt;10;<br>#查询商品价格大于10并且小于50的<br>#商品信息<br>SELECT * FROM goods WHERE<br> gprice&gt;10 AND gprice&lt;50;<br>#查询出商品的数量<br>#字段名 as 新字段名 给列名<br>#重命名成新的列名<br>SELECT COUNT(*) AS ‘总数量’<br>    FROM goods;<br>#查询商品的总价格<br>SELECT SUM(gprice) ‘总价格’<br>       FROM goods;<br>#查询商品的平均价格<br>SELECT AVG(gprice) ‘平均价格’<br>       FROM goods;<br>#查询商品的最高价格<br>SELECT MAX(gprice) ‘最高价格’<br>       FROM goods;<br>#查询商品的最低价格<br>SELECT MIN(gprice) ‘最低价格’<br>       FROM goods;<br>#查询出商品名称是小熊雨伞，外套的<br>#都查询出来<br>SELECT * FROM goods WHERE<br>gnam IN(‘小熊雨伞’,’外套’);<br>SELECT * FROM goods WHERE<br>gnam NOT IN(‘小熊雨伞’,’外套’);<br>#把商品名字重复的去掉<br>SELECT DISTINCT gnam FROM goods;<br>#查询出表的前两行<br>#limit 0,2:0是行的下标，2是行数<br>#表的行的下标是由0开始的<br>SELECT * FROM goods LIMIT 0,2;<br>#查询商品价格大于10并且小于50的<br>#商品信息<br>SELECT * FROM goods WHERE gprice<br>BETWEEN 10 AND 50;</p>
-<h6 id="三、第三次课"><a href="#三、第三次课" class="headerlink" title="三、第三次课"></a>三、第三次课</h6><h6 id="Mysql第三次课"><a href="#Mysql第三次课" class="headerlink" title="Mysql第三次课"></a>Mysql第三次课</h6><pre><code>order by 排序
-group by 把表分组
-group by...having..分组并筛选符合
-                   条件的组
-子查询
-   查询语句里边嵌套查询语句</code></pre><p>CREATE DATABASE schooldb;<br>USE Schooldb;<br>#教师表<br>CREATE TABLE teacher(<br>   tid INT PRIMARY KEY AUTO_INCREMENT,<br>   tnam VARCHAR(20) NOT NULL,<br>   hiredate DATE,#入职日期<br>   sex VARCHAR(5)<br>)<br>#班级信息表<br>CREATE TABLE ClassInfo(<br>   cid INT PRIMARY KEY AUTO_INCREMENT,<br>   cnam VARCHAR(20) NOT NULL,<br>   grid INT, #年级编号<br>   beginyear VARCHAR(20)<br>)<br>#学生信息表<br>CREATE TABLE StudentInfo(<br>   sid INT PRIMARY KEY AUTO_INCREMENT,<br>   snam VARCHAR(20) NOT NULL,<br>   sex VARCHAR(5),<br>   age INT,<br>   birthday DATE,<br>   cid INT, #班级编号<br>   beginyear VARCHAR(20),#入学日期<br>   stel VARCHAR(15),<br>   address VARCHAR(100),<br>   email VARCHAR(50)<br>)<br>#课程表<br>CREATE TABLE course(<br>   coid INT PRIMARY KEY AUTO_INCREMENT,<br>   cnam VARCHAR(50) NOT NULL,#课程名<br>   tid INT    #讲授老师编号<br>)<br>#成绩表<br>CREATE TABLE score(<br>   scid INT PRIMARY KEY AUTO_INCREMENT,<br>   sid INT ,#学生学号<br>   coid INT, #课程编号<br>   score INT,<br>   remark VARCHAR(100) #备注<br>)<br>#年级表<br>CREATE TABLE grade(<br>  gid INT PRIMARY KEY AUTO_INCREMENT,<br>  gnam VARCHAR(50), #年级名<br>  major VARCHAR(100) #专业<br>)<br>#一次性插入多条语句<br>INSERT INTO teacher(tnam,hiredate,sex)<br>VALUES(‘张三’,’2017-09-01’,’男’),<br>(‘李四’,’2018-07-02’,’男’),<br>(‘王五’,’2016-08-16’,’男’);<br>INSERT INTO grade(gnam,major)<br>VALUES(‘18级’,’软信’),(‘19级’,’软信’)<br>,(‘18级’,’移动’),(‘19级’,’移动’);<br>INSERT INTO StudentInfo(snam,sex,age<br>,birthday,cid,beginyear,stel,address<br>,email) VALUES(‘崔一’,’男’,18,’2001-07-05’<br>,1,’2018’,’18867890987’,<br>‘河南省许昌市’,‘159078923@qq.com’),<br>(‘丁二’,’男’,19,’2000-08-05’<br>,2,’2018’,’18967890987’,<br>‘河南省许昌市’,‘156078923@qq.com’),<br>(‘丁三’,’男’,20,’1999-09-05’<br>,3,’2018’,’18877890987’,<br>‘河南省郑州市’,‘157078923@qq.com’),<br>(‘周三’,’女’,17,’2002-06-05’<br>,4,’2019’,’18177890987’,<br>‘河南省洛阳市’,‘157278923@qq.com’);<br>INSERT INTO ClassInfo(cnam,grid,<br>beginyear) VALUES(‘软信1’,1,’2018’)<br>,(‘移动1’,2,’2018’),(‘软信1’,3,’2019’),<br>(‘移动1’,4,’2019’);<br>INSERT INTO course(cnam,tid)<br>VALUES(‘计算机基础’,1),(‘前端基础’,2)<br>,(‘java基础’,3),(‘js基础’,3);<br>INSERT INTO score(sid,coid,score,remark)<br>VALUES(1,1,90,’无’),(1,2,75,’无’),<br>(1,3,59,’无’),(1,4,76,’无’)<br>,(2,1,93,’无’),(2,2,77,’无’),<br>(2,3,66,’无’),(2,4,78,’无’),<br>(3,1,87,’无’),(3,2,55,’无’),<br>(3,3,76,’无’),<br>(4,1,88,’无’),(4,2,66,’无’),<br>(4,3,90,’无’),(4,4,76,’无’);<br>#order by排序<br>#把StudentInfo表按年纪从小到大排序<br>SELECT * FROM StudentInfo ORDER BY<br>    age ASC;<br>#把StudentInfo表按年纪从大到小排序<br>SELECT * FROM StudentInfo ORDER BY<br>    age DESC;<br>#group by分组<br>#把某张表按照某个字段进行分组<br>#查询出每个学生的平均成绩，结果要<br>#显示的字段为，学生学号 平均成绩<br>SELECT sid,AVG(score) ‘平均成绩’<br>FROM score GROUP BY sid;<br>#group by … havig..筛选出来符合条件<br>#的组<br>#查询出全部及格学生的平均成绩<br>SELECT sid,AVG(score) ‘avg’ FROM score<br>GROUP BY sid HAVING MIN(score)&gt;60;<br>#查询出考试门数不够四门的学生学号<br>SELECT sid FROM score GROUP BY sid<br>    HAVING COUNT(*)&lt;4;<br>#查询出“计算机基础”的成绩<br>SELECT coid,score FROM score WHERE<br>coid=(<br>SELECT coid FROM course<br>             WHERE cnam=’计算机基础’);<br>四、第四次课</p>
-<p>Mysql第三次课<br>     order by 排序<br>     group by 把表分组<br>     group by…having..分组并筛选符合<br>                        条件的组<br>     子查询<br>        查询语句里边嵌套查询语句<br>CREATE DATABASE schooldb;<br>USE Schooldb;<br>#教师表<br>CREATE TABLE teacher(<br>   tid INT PRIMARY KEY AUTO_INCREMENT,<br>   tnam VARCHAR(20) NOT NULL,<br>   hiredate DATE,#入职日期<br>   sex VARCHAR(5)<br>)<br>#班级信息表<br>CREATE TABLE ClassInfo(<br>   cid INT PRIMARY KEY AUTO_INCREMENT,<br>   cnam VARCHAR(20) NOT NULL,<br>   grid INT, #年级编号<br>   beginyear VARCHAR(20)<br>)<br>#学生信息表<br>CREATE TABLE StudentInfo(<br>   sid INT PRIMARY KEY AUTO_INCREMENT,<br>   snam VARCHAR(20) NOT NULL,<br>   sex VARCHAR(5),<br>   age INT,<br>   birthday DATE,<br>   cid INT, #班级编号<br>   beginyear VARCHAR(20),#入学日期<br>   stel VARCHAR(15),<br>   address VARCHAR(100),<br>   email VARCHAR(50)<br>)<br>#课程表<br>CREATE TABLE course(<br>   coid INT PRIMARY KEY AUTO_INCREMENT,<br>   cnam VARCHAR(50) NOT NULL,#课程名<br>   tid INT    #讲授老师编号<br>)<br>#成绩表<br>CREATE TABLE score(<br>   scid INT PRIMARY KEY AUTO_INCREMENT,<br>   sid INT ,#学生学号<br>   coid INT, #课程编号<br>   score INT,<br>   remark VARCHAR(100) #备注<br>)<br>#年级表<br>CREATE TABLE grade(<br>  gid INT PRIMARY KEY AUTO_INCREMENT,<br>  gnam VARCHAR(50), #年级名<br>  major VARCHAR(100) #专业<br>)<br>#一次性插入多条语句<br>INSERT INTO teacher(tnam,hiredate,sex)<br>VALUES(‘张三’,’2017-09-01’,’男’),<br>(‘李四’,’2018-07-02’,’男’),<br>(‘王五’,’2016-08-16’,’男’);<br>INSERT INTO grade(gnam,major)<br>VALUES(‘18级’,’软信’),(‘19级’,’软信’)<br>,(‘18级’,’移动’),(‘19级’,’移动’);<br>INSERT INTO StudentInfo(snam,sex,age<br>,birthday,cid,beginyear,stel,address<br>,email) VALUES(‘崔一’,’男’,18,’2001-07-05’<br>,1,’2018’,’18867890987’,<br>‘河南省许昌市’,‘159078923@qq.com’),<br>(‘丁二’,’男’,19,’2000-08-05’<br>,2,’2018’,’18967890987’,<br>‘河南省许昌市’,‘156078923@qq.com’),<br>(‘丁三’,’男’,20,’1999-09-05’<br>,3,’2018’,’18877890987’,<br>‘河南省郑州市’,‘157078923@qq.com’),<br>(‘周三’,’女’,17,’2002-06-05’<br>,4,’2019’,’18177890987’,<br>‘河南省洛阳市’,‘157278923@qq.com’);<br>INSERT INTO ClassInfo(cnam,grid,<br>beginyear) VALUES(‘软信1’,1,’2018’)<br>,(‘移动1’,2,’2018’),(‘软信1’,3,’2019’),<br>(‘移动1’,4,’2019’);<br>INSERT INTO course(cnam,tid)<br>VALUES(‘计算机基础’,1),(‘前端基础’,2)<br>,(‘java基础’,3),(‘js基础’,3);<br>INSERT INTO score(sid,coid,score,remark)<br>VALUES(1,1,90,’无’),(1,2,75,’无’),<br>(1,3,59,’无’),(1,4,76,’无’)<br>,(2,1,93,’无’),(2,2,77,’无’),<br>(2,3,66,’无’),(2,4,78,’无’),<br>(3,1,87,’无’),(3,2,55,’无’),<br>(3,3,76,’无’),<br>(4,1,88,’无’),(4,2,66,’无’),<br>(4,3,90,’无’),(4,4,76,’无’);<br>#order by排序<br>#把StudentInfo表按年纪从小到大排序<br>SELECT * FROM StudentInfo ORDER BY<br>    age ASC;<br>#把StudentInfo表按年纪从大到小排序<br>SELECT * FROM StudentInfo ORDER BY<br>    age DESC;<br>#group by分组<br>#把某张表按照某个字段进行分组<br>#查询出每个学生的平均成绩，结果要<br>#显示的字段为，学生学号 平均成绩<br>SELECT sid,AVG(score) ‘平均成绩’<br>FROM score GROUP BY sid;<br>#group by … havig..筛选出来符合条件<br>#的组<br>#查询出全部及格学生的平均成绩<br>SELECT sid,AVG(score) ‘avg’ FROM score<br>GROUP BY sid HAVING MIN(score)&gt;60;<br>#查询出考试门数不够四门的学生学号<br>SELECT sid FROM score GROUP BY sid<br>    HAVING COUNT(*)&lt;4;<br>#查询出“计算机基础”的成绩<br>SELECT coid,score FROM score WHERE<br>coid=(<br>SELECT coid FROM course<br>             WHERE cnam=’计算机基础’);<br>#查询出每门课的平均成绩</p>
-<p>#查询出‘周三’学生的平均成绩</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/21/MySQL总结/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
-    <article id="w-web前端" class="article article-type-w  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/11/web前端/">web前端</a>
-    </h1>
   
 
-        
-        <a href="/2019/10/11/web前端/" class="archive-article-date">
-  	<time datetime="2019-10-11T04:20:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-11</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="秋天到了"><a href="#秋天到了" class="headerlink" title="秋天到了"></a>秋天到了</h1>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/11/web前端/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/10/hello-world/">Hello World</a>
-    </h1>
   
 
-        
-        <a href="/2019/10/10/hello-world/" class="archive-article-date">
-  	<time datetime="2019-10-10T12:28:13.636Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-10</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/10/10/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
+
   
 
 
@@ -769,8 +327,8 @@ group by...having..分组并筛选符合
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
